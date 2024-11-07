@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+section.slider {
+  width: 90%;
+  height: 300px;
+  background-color: crimson;
+  margin: 50px auto;
+  padding: 1.2% 2px;
+  border-radius: 18px;
+}
+div.item {
+  height: 100%;
+}
+div.item > a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+  flex-flow: column;
+  align-items: center;
+  text-decoration: none;
+  justify-content: space-between;
+}
+div.item > a > img {
+  width: 90%;
+  object-fit: cover;
+}
+div.item > a > h3 {
+  direction: rtl;
+  font-size: small;
+  color: black;
+}
+div.item > a > div.price {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div.item > a > div.price > div {
+  display: flex;
+  align-items: center;
+  flex-grow: 0.7;
+  gap: 5%;
+}
+div.item > a > div.price > div > img {
+  object-fit: cover;
+  width: 16px;
+}
+div.item > a > div.price > div > span {
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+}
+div.item > a > div.price > span {
+  color: whitesmoke;
+  font-size: small;
+  font-weight: 600;
+  border-radius: 40%;
+  padding: 2px;
+  background-color: crimson;
+}
+div.item > a > div.tkh {
+  width: 100%;
+  display: flex;
+  padding-left: 15%;
+  padding-bottom: 10%;
+}
+div.item > a > div.tkh > span {
+  font-size: 14px;
+  color: gray;
+  font-weight: 200;
+  text-decoration: line-through 1px solid lightgray;
+}
+div.shegeft {
+  background-color: crimson;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 5px 16px;
+  justify-content: space-around;
+}
+div.shegeft > img {
+  object-fit: cover;
+  height: 86px;
+}
+div.shegeft > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 90%;
+}
+div.shegeft > div > span {
+  width: 26px;
+  height: 26px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+}
+div.shegeft > div > span.dot {
+  width: 2px;
+  background-color: transparent;
+}
+div.shegeft > a {
+  display: flex;
+  text-decoration: none;
+  font-size: medium;
+  color: whitesmoke;
+  direction: rtl;
+  gap: 5px;
+  font-weight: bold;
+}
